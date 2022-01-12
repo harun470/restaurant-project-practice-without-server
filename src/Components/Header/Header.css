@@ -8,13 +8,14 @@
     background-image: linear-gradient(blue,pink);
 }
 
-.NavLink{
+.nav-link{
     text-decoration: none;
     color: white !important;
     font-size: 20px;
+    margin-left: 15px;
 }
-.NavLink:hover{
+.nav-link:hover{
     color: red !important;
-    background-color: #ffd7ba;
+    border-bottom: 1px solid white;
     transition: all .5s ease;
 }
