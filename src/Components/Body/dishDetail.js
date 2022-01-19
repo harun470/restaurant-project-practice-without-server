@@ -1,6 +1,7 @@
 import React from 'react'
 import { Card, CardBody, CardImg } from 'reactstrap'
 import BodyloadComment from './loadComment'
+import BodycommentForm from './commentForm'
 
 export default function dishDetail(props) {
     
@@ -14,6 +15,8 @@ export default function dishDetail(props) {
                     <p>{props.dish.price}/-</p>
                     <hr/>
                     <BodyloadComment comment={props.comments} />
+                    <hr/>
+                    <BodycommentForm dishId={props.dish.id} addComment={props.addComment} />
                 </CardBody>
             </Card>
         </div>
