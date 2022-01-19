@@ -46,7 +46,7 @@ export default class Contact extends Component {
                     
                 >
                     {({values,handleChange,handleSubmit,errors})=>(
-                        <div style={{border:'1px solid grey',padding:'15px',borderRadius:'7px',margin:'50px'}}>
+                        <div className='container' style={{border:'1px solid grey',padding:'15px',borderRadius:'7px', marginTop:'50px'}}>
                             <form onSubmit={handleSubmit}>
                                 <input 
                                     name='firstname'
