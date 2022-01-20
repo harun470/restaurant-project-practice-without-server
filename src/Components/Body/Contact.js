@@ -34,6 +34,8 @@ export default class Contact extends Component {
                             }
                             if(!values.telnum){
                                 errors.telnum='required'
+                            } else if(isNaN(Number(values.telnum))){
+                                errors.telnum='invalid number'
                             }else if(values.telnum.length<11){
                                 errors.telnum='Number must be 11 digit'
                             }
