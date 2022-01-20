@@ -1,1 +1,27 @@
-
+.cotainer-footer{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 10px;
+    background-color: #03071e;
+   
+}
+.cotainer-footer h4{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    color: #f8f9fa;
+}
+.cotainer-footer p{
+    font-size: 14px;
+    color: #f8f9fa;
+}
+.icon{
+    color: #f8f9fa;
+    background-color:#001219f5;
+    margin-left: 5px;
+    padding: 6px;
+    border-radius: 50%;
+}
